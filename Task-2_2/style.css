@@ -1,0 +1,173 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+.navbar {
+    height: 5vh;
+    align-items: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: white
+}
+
+.Welcome {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 30vh;
+    background: url(./assets/images/books-5433432_640.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Welcome p {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-size: 45px;
+
+}
+
+.About {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    height: 30vh;
+
+}
+
+.List,
+.card-list {
+    justify-content: space-around;
+    display: flex;
+}
+
+.Teachers {
+    padding: 20px 40px 20px 40px;
+    background-color: #bfaa90;
+}
+
+.About h2,
+p,
+.service-title h3,
+p,
+.Services h2,
+.Specializations h2,
+.Teachers h2,
+.Plans h2,
+.card-body h3,
+.Contact h3 {
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.Services {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 30vh;
+    background-color: #bfaa90;
+}
+
+.service-title {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.Specializations {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 30vh;
+    background-color: white;
+}
+
+.Exp-1 {
+    padding-left: 25px;
+}
+
+.photo {
+    width: 100px;
+
+}
+
+.card {
+    background-color: #f5deb3;
+    border-radius: 10px;
+
+
+}
+
+.card-header {
+    margin: 10px;
+    height: 100px;
+    background: url(./assets/images/plan-2372176_640.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-footer {
+    border-radius: 5px;
+    border: 3px #fbdc53 solid;
+    margin: 10px;
+    background-color: #fde98c;
+}
+
+.Contact {
+    background-color: #bfaa90;
+    padding: 20px 40px 20px 40px;
+
+}
+
+.Plans {
+    padding: 20px 40px 20px 40px;
+
+}
+
+.Information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-group {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    height: 5vh;
+    align-items: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    padding: 10px;
+
+}

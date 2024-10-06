@@ -1,0 +1,87 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+.First {
+    /* background-color: silver; */
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* لجعل الصور في منتصف الصفحة */
+    gap: 10px;
+    /* المسافة بين الصور */
+}
+.container{
+    width: 50vw;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.photo {
+    width: 200px;
+    /* يجعل الصورة تتناسب مع العرض المتاح */
+    height: 200px;
+    /* يحافظ على نسبة العرض إلى الارتفاع للصورة */
+    border-radius: 50%;
+    /* لإعطاء الصور حواف مستديرة */
+}
+
+.rocket {
+    width: 50px;
+
+}
+
+.Inform h1,
+.Inform h2,
+.Inform h3 {
+    margin: 10px;
+    text-align: center;
+}
+.card  a{
+    color: #fff;
+}
+.card{
+    gap: 10px;
+    font-size: 12px;
+    justify-content: space-around;
+    width: 20%;
+    height: 75px;
+    margin: auto;
+    background-color: #027aff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.card-container{
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.Contact-Me h3 , .Follow-Me h3 , .Experience h3 , .Education h3 , .Programming h3 , .Interests h3{
+    margin: 10px;
+    text-align: left;
+}
+.social a{
+margin: 10px;
+
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 95%;
+    background-color: #ccc;
+    margin: 20px auto;
+}
+ span ,p {
+color: #ccc;
+
+}
+  
